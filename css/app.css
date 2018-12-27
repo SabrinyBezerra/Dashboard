@@ -1,0 +1,82 @@
+/*             Estilo da pagina                      */
+/*___________________________________________________*/
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 60%;
+  width: 40%;
+}
+
+/*Onde esta sendo gerado os graficos*/
+canvas{
+  position: relative;
+  left: 15%;
+}
+
+/*Menu do sistema*/
+.sidenav{
+  font-size: 50px !important;
+  color: white ;
+  background-color: #E8E8E8 !important;
+  width: 290px !important;
+  margin-top: 0px !important;
+}
+
+#containerBR {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*Estilo aplicado no mapa de BR*/
+#mapBR{
+  position: relative;
+  width: 900px;
+  height: 600px;
+  top:0px;
+  bottom: 0px;  
+  left: 0px;
+  right: 0px;
+
+}
+/*Estilo aplicado no mapa de estados*/
+#mapEst{
+  position: relative;
+  width: 700px;
+  height: 300px;
+  top:0px;
+  bottom: 0px;  
+  left: 0px;
+  right: 0px;
+}
+
+/*Formato do modal*/
+.modal{
+  min-width: 100% !important;
+  min-height: 90% !important;
+}
+/*Cor do menu*/
+.menu{
+  background-color:rgb(9, 17, 29) !important;
+}
+/*Cor da fonte do menu*/
+.menu a{
+  color: white !important;
+}
+/*Carregamento da pagina*/
+.center-preloader{
+  display: block;
+  position: relative;
+  margin-top: 20%;
+  margin-left: 17%;
+  overflow-y: none; 
+}
+/*Carregamento dos graficos*/
+.center-preloader-est{
+  display: block;
+  position: relative;
+  top: 45%;
+  left: 45%; 
+  overflow-y: none;
+}
